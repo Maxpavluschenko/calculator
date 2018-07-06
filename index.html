@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+    <body>
+        <h3>Калькулятор</h3>
+
+<form name="form">
+
+<table border cellpadding = 8 width=350 bgcolor="PaleGreen">
+
+<tr>
+  <td>Число 1:</td>
+  <td>
+      <center>
+          <input name="num_01" type="text" size="24" maxlength=10 value=" ">
+      </center>
+  </td>
+</tr>
+<tr>
+    <td>Число 2:</td>
+      <td>
+        <center>
+          <input name="num_02" type="text" size="24" maxlength=10 value=" ">
+        </center>
+      </td>
+</tr>
+<tr>
+  <td>Результат:</td>
+      <td><center>
+        <input name="res" type="text" size="24" maxlength=0>
+      </center></td>
+</tr>
+</table>
+
+<table border cellpadding = 15 width=350>
+
+<tr bgcolor="LimeGreen">
+  <td>
+    <center>
+      <input name="btnadd" type="button" value="  +  " onClick="GetResult(1)">
+    </center>
+  </td>
+  <td>
+    <center>
+      <input name="btnsub" type="button" value="  -  " onClick="GetResult(2)">
+    </center>
+  </td>
+  <td>
+    <center>
+      <input name="btnmul" type="button" value="  *  " onClick="GetResult(3)">
+    </center>
+  </td>
+  <td>
+    <center>
+      <input name="btndiv" type="button" value="  /  " onClick="GetResult(4)">
+    </center>
+  </td>
+</tr>
+
+</table>
+
+</form>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
