@@ -1,10 +1,8 @@
 function GetResult(oper)
-{ 
-  const n1 = 0;
-  const n2 = 0;
+{
     	
-    n1 = eval(form.num_01.value);   
-    n2 = eval(form.num_02.value);   
+   const n1 = eval(form.num_01.value);   
+   const n2 = eval(form.num_02.value);   
   
   switch (oper)                       
   {                                   
